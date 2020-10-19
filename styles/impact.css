@@ -1,0 +1,9 @@
+#container {
+    margin: 85px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#video {
+    justify-content: center;
+}
