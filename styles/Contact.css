@@ -64,9 +64,6 @@ nav.stroke ul li a:hover:after {
 
 /* Container CSS */
 
-#container {
-    margin-top: 65px;
-}
   
     .ML{
       width: 100px;
@@ -85,12 +82,12 @@ nav.stroke ul li a:hover:after {
       box-sizing:border-box;
       resize:vertical;
       overflow:auto;
+      margin-top: 10px;
     }
     
     .container{
       width:75%;
-      margin-top: 65px;
-      margin:auto;
+      margin:65px auto;
     }
     input[type=text], select, textarea {
       width: 100%; /* Full width */
