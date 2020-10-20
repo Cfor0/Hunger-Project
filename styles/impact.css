@@ -9,7 +9,10 @@
     justify-content: center;
     margin: 0 auto;
 }
-
+h2 {
+    font-size: 3rem;
+    margin: 10px auto;
+}
 .product-container{
     margin: 10px 40px 0;
     display: flex;
