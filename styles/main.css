@@ -80,7 +80,7 @@ nav.stroke ul li a:hover:after {
 #homeHero div {
   position: absolute;
   top: 43%;
-  left: 40%;
+  left: 32%;
   color: white;
   font-size: 3em;
 }
@@ -89,7 +89,7 @@ nav.stroke ul li a:hover:after {
   display: block;
   text-align: center;
   height: 200px;
-  font-size: 2.5em;
+  font-size: 1.75em;
 }
 
 #missionStatement p {
@@ -113,6 +113,8 @@ nav.stroke ul li a:hover:after {
   font-size: 2em;
 }
 
+/* Footer CSS */
+
 footer {
   background-color: rgb(39, 102, 49);
   width: 100%;
@@ -121,8 +123,6 @@ footer {
   text-align: center;
   position: static;
   bottom:0;
-  box-shadow: black 2px 2px 20px;
-  padding: 15px 0 0 0;
 }
 
 footer a {
@@ -142,22 +142,6 @@ footer img {
 footer a i {
   font-size: 30px !important;
   margin: 0 10px;
-}
-
-#FooterPCLogo {
-  padding: 0;
-  margin: 0;
-  display: inline;
-  color: white;
-  font-size: 2em;
-}
-
-#FooterPCLogo p {
-  margin: 0 0 10px 0;
-}
-
-h6 {
-  display: none;
 }
 
 html, body {
