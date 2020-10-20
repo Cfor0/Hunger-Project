@@ -10,12 +10,29 @@
     .ML{
       width: 100px;
       float: left;
-    }
+}
+  
+    .p{
+    font-size: large;
+}
     
     body{
       margin:0;
       color:white;
     }
+    
+  .grapes{
+    background: url("/Images/berry.jpg");
+  }
+  p{
+    color:white;
+  }
+   h1{ 
+  color:white;
+   }
+   label{
+   color:white
+   }
     .Info{
       text-align:center;
       border:1px solid; 
@@ -36,13 +53,13 @@
       border: 1px solid #ccc; /* Gray border */
       border-radius: 4px; /* Rounded borders */
       box-sizing: border-box; /* Make sure that padding and width stays in place */
-      margin-top: 6px; /* Add a top margin */
+      margin-top: 16px; /* Add a top margin */
       margin-bottom: 16px; /* Bottom margin */
-      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      resize:vertical /* Allow the user to vertically resize the textarea (not horizontally) */
     }
     input[type=submit]{
       background-color:white;
-      color:darkblue;
+      color:blue;
       padding:12px 20px;
       border:none;
       cursor:pointer;
