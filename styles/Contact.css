@@ -13,9 +13,9 @@
     }
     
     body{
-      background-color:burlywood;
+      background: url("/Images/berry.jpg");top: center no-repeat;
       margin:0;
-      color:white;
+      color:rgb(80, 77, 77);
     }
     .Info{
       text-align:center;
@@ -43,7 +43,7 @@
     }
     input[type=submit]{
       background-color:white;
-      color:darkblue;
+      color:blue;
       padding:12px 20px;
       border:none;
       cursor:pointer;
