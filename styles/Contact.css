@@ -10,10 +10,15 @@
     .ML{
       width: 100px;
       float: left;
-    }
+}
   
     .p{
     font-size: large;
+}
+    
+    body{
+      margin:0;
+      color:white;
     }
     
   .grapes{
