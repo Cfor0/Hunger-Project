@@ -58,11 +58,9 @@
       padding:10px 14px;
       margin:0 5px;
     }
-    footer:hover{
-      background-color:blue;
-    }
+    
     footer a:hover{
-      background-color:orange;
+      background-color:lightblue;
       font-size:20px;
       text-align: center;
         
@@ -77,5 +75,6 @@
     
       footer{
         text-align:center;
-      } */
+        background-color: lightblue;
+      }
   
