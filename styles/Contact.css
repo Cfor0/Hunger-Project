@@ -4,77 +4,35 @@
 }
 
 
-/* Navbar CSS */
-
-nav {
-    display: block;
-    width: 100%;
-    position: fixed;
-    background: rgb(39, 102, 49);
-    text-align: left;
-    top: 0;
-    z-index: 1;
-    padding: 15px;
-}
-
-li {
-    display: inline;
-    padding: 10px;
-}
-
-ul{
-    list-style-type: none;
-    padding-left: 2px;
-}
-
-li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
-
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-nav ul li a:hover {
-  color: lightblue;
-}
-
-/* stroke */
-nav.stroke ul li a {
-  position: relative;
-}
-nav.stroke ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 1px;
-}
-nav.stroke ul li a:hover:after {
-  width: 100%;
-}
-
 /* Container CSS */
 
   
     .ML{
       width: 100px;
       float: left;
-    }
+}
+  
+    .p{
+    font-size: large;
+}
     
     body{
-      background-color:burlywood;
       margin:0;
       color:white;
     }
+    
+  .grapes{
+    background: url("/Images/berry.jpg");
+  }
+  p{
+    color:white;
+  }
+   h1{ 
+  color:white;
+   }
+   label{
+   color:white
+   }
     .Info{
       text-align:center;
       border:1px solid; 
@@ -95,19 +53,19 @@ nav.stroke ul li a:hover:after {
       border: 1px solid #ccc; /* Gray border */
       border-radius: 4px; /* Rounded borders */
       box-sizing: border-box; /* Make sure that padding and width stays in place */
-      margin-top: 6px; /* Add a top margin */
+      margin-top: 16px; /* Add a top margin */
       margin-bottom: 16px; /* Bottom margin */
-      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      resize:vertical /* Allow the user to vertically resize the textarea (not horizontally) */
     }
     input[type=submit]{
       background-color:white;
-      color:darkblue;
+      color:blue;
       padding:12px 20px;
       border:none;
       cursor:pointer;
     }
     /* Footer and Footer Socail Logos */
-    footer ul{
+    /* footer ul{
       display: flex;
       justify-content:center;
     }
@@ -117,11 +75,9 @@ nav.stroke ul li a:hover:after {
       padding:10px 14px;
       margin:0 5px;
     }
-    footer:hover{
-      background-color:blue;
-    }
+    
     footer a:hover{
-      background-color:orange;
+      background-color:lightblue;
       font-size:20px;
       text-align: center;
         
@@ -136,5 +92,6 @@ nav.stroke ul li a:hover:after {
     
       footer{
         text-align:center;
+        background-color: lightblue;
       }
   
