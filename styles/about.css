@@ -4,13 +4,20 @@
 }
 
 h2{
-margin-left: 20%;
-margin-top: 25px;
+margin: 25px 0 25px 20%;
+font-size: 40px;
+color: white;
+font-style: italic;
 }
 
-p{
+#aboutus p{
     margin: 0 auto;
+    margin-bottom: 20px;
     width: 50%;
     font-size: 18px;
     text-align: center;
+    color: white;
+    background-color: lightblue;
+    padding: 15px;
+    border: solid 1px black;
 }
