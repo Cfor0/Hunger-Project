@@ -70,34 +70,3 @@ form{
       border:none;
       cursor:pointer;
     }
-    /* Footer and Footer Socail Logos */
-     footer ul{
-      display: flex;
-      justify-content:center;
-    }
-    footer ul li{
-      display: inline-block;
-      background-color:white;
-      padding:10px 14px;
-      margin:0 5px;
-    }
-    
-    footer a:hover{
-      background-color:lightblue;
-      font-size:20px;
-      text-align: center;
-        
-    }
-    footer a{
-      color:red;
-      width:100%;
-      margin:0px;
-        height:100%;
-      transition: all 0.7s ease;
-    }
-    
-      footer{
-        text-align:center;
-        background-color: lightblue;
-      }
-  
