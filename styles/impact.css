@@ -1,5 +1,5 @@
 #container {
-    margin: 85px auto;
+    margin: 85px auto 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,7 +27,7 @@ h2 {
     margin: 15px;
     background-color: rgb(33, 160, 192);
     /* height: 300px; */
-    width: 300px;
+    width: 400px;
 }
 
 .card-container img {
