@@ -22,7 +22,7 @@
     }
     
   .grapes{
-    background: url("/Images/berry.jpg");
+    background: url("../Images/berry.jpg");
   }
   p{
     color:white;
