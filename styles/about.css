@@ -1,13 +1,23 @@
-#abouthero{
-    background-image: url(/Images/newfist-bump.jpg);
-    margin-top: 50px;
+#abouthero h1{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: darkblue;
+    font-size: 75px;
+    text-align: center;
+}
+#abouthero img{
+    width: 100%;
+    height: 550px;
 }
 
 h2{
-margin: 25px 0 25px 20%;
-font-size: 40px;
-color: white;
-font-style: italic;
+    margin: 25px 0 25px 20%;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
 }
 
 #aboutus p{
