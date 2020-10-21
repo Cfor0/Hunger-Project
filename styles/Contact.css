@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar CSS */
+
+nav {
+    display: block;
+    width: 100%;
+    position: fixed;
+    background: rgb(39, 102, 49);
+    text-align: left;
+    top: 0;
+    z-index: 1;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: lightblue;
+}
+
+/* stroke */
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/* Container CSS */
+
+  
+    .ML{
+      width: 100px;
+      float: left;
+    }
+    
+    body{
+      background-color:burlywood;
+      margin:0;
+      color:white;
+    }
+    .Info{
+      text-align:center;
+      border:1px solid; 
+      text-align:center;
+      box-sizing:border-box;
+      resize:vertical;
+      overflow:auto;
+      margin-top: 10px;
+    }
+    
+    .container{
+      width:75%;
+      margin:65px auto;
+    }
+    input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    input[type=submit]{
+      background-color:white;
+      color:darkblue;
+      padding:12px 20px;
+      border:none;
+      cursor:pointer;
+    }
+    /* Footer and Footer Socail Logos */
+    footer ul{
+      display: flex;
+      justify-content:center;
+    }
+    footer ul li{
+      display: inline-block;
+      background-color:white;
+      padding:10px 14px;
+      margin:0 5px;
+    }
+    footer:hover{
+      background-color:blue;
+    }
+    footer a:hover{
+      background-color:orange;
+      font-size:20px;
+      text-align: center;
+        
+    }
+    footer a{
+      color:red;
+      width:100%;
+      margin:0px;
+        height:100%;
+      transition: all 0.7s ease;
+    }
+    
+      footer{
+        text-align:center;
+      }
+  
