@@ -28,6 +28,7 @@ h2 {
     background-color: rgba(33, 160, 192, .6);
     /* height: 300px; */
     width: 400px;
+    box-shadow: 5px 10px rgb(48, 107, 196);
 }
 
 .card-container img {
