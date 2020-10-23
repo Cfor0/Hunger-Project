@@ -41,3 +41,14 @@ h2{
     color: white;
     margin: 0 20px 100px 20px;
 }
+#team .partners{
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin: 50px 0 50px 75px;
+}
+.space{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
