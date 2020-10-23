@@ -23,7 +23,7 @@ h2{
     font-style: italic;
 }
 
-#aboutus p{
+.p1{
     margin: 0 auto;
     margin-bottom: 100px;
     width: 75%;
@@ -34,10 +34,10 @@ h2{
     padding: 15px;
     border: solid 1px black;
 }
-#aboutus > p:nth-child(3){
-    background-color: rgb(211, 197, 197);
-    border: none;
-    font-style: italic;
-    font-size: 40px;
+#p2{
     text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    margin: 0 20px 100px 20px;
 }
