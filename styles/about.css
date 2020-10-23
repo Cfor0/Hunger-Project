@@ -11,23 +11,44 @@
 #abouthero img{
     width: 100%;
     height: 550px;
+    border-bottom: white solid 2px;
+    border-top: white solid 2px;
 }
 
 h2{
-    margin: 25px 0 25px 20%;
+    text-align: center;
+    margin: 20px 0 20px 0;
     font-size: 40px;
     color: white;
     font-style: italic;
 }
 
-#aboutus p{
+.p1{
     margin: 0 auto;
-    margin-bottom: 20px;
-    width: 50%;
+    margin-bottom: 100px;
+    width: 75%;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     color: white;
     background-color: lightblue;
     padding: 15px;
     border: solid 1px black;
+}
+#p2{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    margin: 0 20px 100px 20px;
+}
+#team .partners{
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin: 50px 0 50px 75px;
+}
+.space{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
