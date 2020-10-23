@@ -6,7 +6,6 @@
 
 /* Container CSS */
 
-  
     .ML{
       width: 100px;
       float: left;
@@ -22,8 +21,14 @@
     }
     
   .grapes{
-    background: url("/Images/berry.jpg");
+    background: url("../Images/berry.jpg");
+
   }
+form{
+  padding:15px;
+  background-color: rgba(99, 151, 185, .5);
+}
+
   p{
     color:white;
   }
@@ -58,40 +63,9 @@
       resize:vertical /* Allow the user to vertically resize the textarea (not horizontally) */
     }
     input[type=submit]{
-      background-color:white;
-      color:blue;
+      background-color: #1d8eaa;
+      color:white;
       padding:12px 20px;
       border:none;
       cursor:pointer;
     }
-    /* Footer and Footer Socail Logos */
-    /* footer ul{
-      display: flex;
-      justify-content:center;
-    }
-    footer ul li{
-      display: inline-block;
-      background-color:white;
-      padding:10px 14px;
-      margin:0 5px;
-    }
-    
-    footer a:hover{
-      background-color:lightblue;
-      font-size:20px;
-      text-align: center;
-        
-    }
-    footer a{
-      color:red;
-      width:100%;
-      margin:0px;
-        height:100%;
-      transition: all 0.7s ease;
-    }
-    
-      footer{
-        text-align:center;
-        background-color: lightblue;
-      }
-  
